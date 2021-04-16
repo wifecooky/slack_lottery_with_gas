@@ -10,5 +10,5 @@ Google Sheets (+ Apps Script) を使って Slackチャンネルのメンバー�
 
 ## 仕組み
 
-
+<img src="sequence_diagram.png" alt="">
 
