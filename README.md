@@ -14,8 +14,10 @@ Google Sheets (+ `Apps Script`) を使って Slackチャンネルのメンバー
 
 ## 3. Setup
 
-* Step1. Google Driveに以下のようなGoogle Sheetsファイルを作成し、抽選対象となるSlackチャンネルにあるユーザ情報を埋め込む。
+* Step1. Google Driveに以下のようなGoogle Sheetsファイルを作成し、抽選対象となるSlackチャンネルにあるユーザ情報を埋め込む。（エンジニアの方なら[こちら](https://api.slack.com/methods/conversations.members)にSlack IDを一発で取れるSlackのAPIがある）
   <img src="slack_members_file.png" alt="">
 * Step2. Step1で作成されたファイルのメニューから 「`Tools`」→ 「`Script Editor`」から Apps Scriptを開き、Scriptファイルを作成し、src/Code.gsの中身をコピペ。
 * Step3. `SPREAD_SHEETS_ID`と`SLACK_WEB_HOOK_URL`を入れ替える。
 * Step4. 「Triggers」画面に移動し、`RobinStudySession` 関数を実行するトリガーを追加。
+
+
